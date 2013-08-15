@@ -10,24 +10,11 @@
     ],
 
     "require": {
-        "php":                              ">=5.3.3",
-        "libra/libra-app":                  "dev-master"
-    },
-
-    "require-dev": {
-        
+        "php":                              ">=5.3.3"
     },
 
     "autoload": {
         "psr-0": {"LibraModuleManager\\": "src/"},
         "classmap": ["Module.php"]
-    },
-
-    "provide": {
-    },
-
-    "sugest": {
-
     }
-
 }
