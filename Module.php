@@ -5,8 +5,6 @@ namespace LibraModuleManager;
 use Zend\ModuleManager\ModuleManager;
 use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
-use Zend\Mvc\MvcEvent;
-use Zend\ModuleManager\Feature\ServiceProviderInterface;
 
 class Module implements
     AutoloaderProviderInterface,
